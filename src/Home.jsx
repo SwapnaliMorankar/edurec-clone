@@ -17,14 +17,17 @@ import './Home.css'
 function Home() {
   return (
     <>
-   
+  
+    
     <Navigationbar/>
+ 
     <Home_about/>
     <Home_diagram/>
     <Home_top_partners/>
     <Home_top_courses/>
     <Home_footer/>
-  
+    
+    
 
 
     
