@@ -50,15 +50,15 @@ function University() {
             {/* NAVBAR---------------------------------------END----------------------------------------------- */}
 
 
-            <Carousel data-bs-theme="dark">
-                <Carousel.Item>
+            <Carousel data-bs-theme="dark" interval={2000}>
+                <Carousel.Item interval={2000}>
                     <img
                         className="d-block w-100"
                         src={carousel3}
                         alt="First slide"
                     />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={2000}>
                     <img
                         className="d-block w-100"
                         src={carousel2}
@@ -66,7 +66,7 @@ function University() {
                     />
 
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={2000}>
                     <img
                         className="d-block w-100"
                         src={dypatil}
