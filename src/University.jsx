@@ -83,8 +83,8 @@ function University() {
             {/* social media sticky=----------------------------------- */}
   <div className="home_footer_socialmedia">
         <div className="icons">
-        <a href=""> <img src={instalogo} alt="" /></a>
-        <a href=""> <img src={whatsapplogo} alt="" /></a>
+        <a href="https://instagram.com/edurec.in?igshid=cGdpYmlta2V4YXg="> <img src={instalogo} alt="" /></a>
+        <a href="https://wa.link/q57v2j"> <img src={whatsapplogo} alt="" /></a>
         
         <a href=""> <img src={facebooklogo} alt="" /></a>
         </div>
@@ -352,7 +352,6 @@ function University() {
 
             </div>
             <Home_footer />
-
 
 
             <Outlet/>

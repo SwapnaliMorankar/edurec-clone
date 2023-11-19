@@ -36,6 +36,11 @@ function Support() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+         
+           
+
+
     <div className="support1">
         <div className="support1a">
             <h1>LIVE <br /> SUPPORT</h1>
@@ -45,10 +50,20 @@ function Support() {
                 <button>CONTACT US</button>
             </form>
         </div>
+        
         <div className="support1b">
             <img src={supportimage} alt="No image" />
         </div>
     </div>
+        {/* social media sticky=----------------------------------- */}
+  <div className="home_footer_socialmedia">
+        <div className="icons">
+        <a href="https://instagram.com/edurec.in?igshid=cGdpYmlta2V4YXg="> <img src={instalogo} alt="" /></a>
+        <a href="https://wa.link/q57v2j"> <img src={whatsapplogo} alt="" /></a>
+        
+        <a href=""> <img src={facebooklogo} alt="" /></a>
+        </div>
+      </div>
     <div className="support2">
         <div className="support2a">
           <div className="support2b">
@@ -67,6 +82,7 @@ function Support() {
           </div>
         </div>
     </div>
+ 
     <Home_footer/>
     </>
   )

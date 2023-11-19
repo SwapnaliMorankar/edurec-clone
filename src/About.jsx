@@ -14,6 +14,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link, Outlet } from 'react-router-dom';
 import Home_footer from './Home_footer';
 
+
+import instalogo from './instagram.jpeg'
+import facebooklogo from './facebook.png'
+import whatsapplogo from './whatsapp.png'
+
 function About() {
 
     function expand(){
@@ -54,6 +59,8 @@ function About() {
       </Container>
     </Navbar>
 
+  
+            
       {/* FIRST PHOTO SECTION */}
         <div className="About1">
             <div className="about1a">
@@ -69,7 +76,15 @@ function About() {
                 <p>Welcome to Edurec, a trailblazing platform that redefines the landscape of education by seamlessly merging learning with innovation. At Edurec, our core mission revolves around transforming traditional education paradigms into dynamic, personalized experiences that uplift both students and educators. Our unwavering commitment is to revolutionize the learning process through meticulously tailored solutions that cater to individual needs and foster an environment of growth and empowerment. At Edurec, we're dedicated to remaining at the forefront of educational trends. We continuously evolve our platform to equip learners with the essential skills and knowledge required to excel in a rapidly changing world. Our dynamic approach to education not only addresses current needs but also anticipates future challenges, preparing learners to adapt and succeed in an ever-evolving landscape. </p>
         </div>
       {/* SECOND INFO SECTION */}
-      
+      {/* social media sticky=----------------------------------- */}
+      <div className="home_footer_socialmedia">
+        <div className="icons">
+        <a href="https://instagram.com/edurec.in?igshid=cGdpYmlta2V4YXg="> <img src={instalogo} alt="" /></a>
+        <a href="https://wa.link/q57v2j"> <img src={whatsapplogo} alt="" /></a>
+        
+        <a href=""> <img src={facebooklogo} alt="" /></a>
+        </div>
+      </div>
 
       {/* THIRD DIAMOND SECTION   */}
         <div className="about3">
