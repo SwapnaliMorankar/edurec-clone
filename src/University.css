@@ -1,0 +1,245 @@
+.university_flex_container{
+    width: 80%;
+    height: auto;
+    /* background-color: rgb(179, 163, 171); */
+    display: flex;justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 17px;
+    
+}
+#university_card_img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 36.6%;
+}
+
+.university_card {
+ 
+  width: 300px;
+  height: 430px;
+ margin: 30px;
+  
+  perspective: 500px;
+}
+.university_title{
+    background-color: #004aad;
+    margin: auto;
+    font-size: larger;
+}
+.university_content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.university_card:hover .university_content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+.card_footer{
+    background-image: linear-gradient(to bottom right, #5de0e6, #004aad);
+font-size: 35px;
+color: aliceblue;
+width: 100%;
+height:81px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+margin-top: 22px;
+display: flex;
+justify-content: space-evenly;
+padding-top: 24px;
+line-height: 1;
+  font-weight: 700;
+}
+.university_card_content{
+    width: 100%;
+  height: 90px;
+  /* border: 2px solid rgb(171, 134, 66); */
+  font-size: 15px;
+  margin-top: 9px;
+  padding: 5px;
+}
+.small_content{
+    font-size: 12px;
+}
+.back_content{
+    width: 90%;
+    height: 60%;
+    /* background-color: #65a0c3; */
+    text-align:justify;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 17px;  
+}
+
+#back_button_more{
+    background-color: #446374;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 80px;
+    cursor: pointer;
+    font-weight: 600;
+    color: aliceblue;
+    
+}
+#back_button_more:hover{
+    box-shadow: 0px 0px 8px 2px white;
+    transition: 0.5s;
+}
+
+
+
+/* csrousel started--------------------------------------------------------------------------- */
+
+.w-100{
+    height: 600px;
+}
+
+
+
+
+
+
+ /*  CARD---------------------------------------------------------------------------------- */
+.front,
+.back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  background: white;
+  background-size:50% 50%;
+  color: #03446A;
+  text-align: center;
+ 
+  font-size: 20px;
+ 
+  border-radius: 6px;
+  backface-visibility: hidden;
+}
+
+.back {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+.university_name{
+    font-size: 25px;
+    width: 100%;
+    height: 70px;
+    font-weight: 500;
+}
+
+
+
+
+/* repsonsive-------------------------------------- */
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .w-100{
+        height: 400px;
+    }
+    .back_content{
+        width: 90%;
+        height: 60%;
+        /* background-color: #65a0c3; */
+        text-align:justify;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 15px;  
+    }
+    .dypatil_card_footer{
+        background-image: linear-gradient(to bottom right, #5de0e6, #004aad);
+    font-size: 30px;
+    color: aliceblue;
+    width: 100%;
+    height:81px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    }
+    .university_card_content{
+font-size: 14px;
+    }
+  }
+  
+  /* Media query for even smaller screens */
+  @media (max-width: 480px) {
+    
+    .w-100{
+        height: 400px;
+    }
+    
+    .back_content{
+        width: 90%;
+        height: 60%;
+        /* background-color: #65a0c3; */
+        text-align:justify;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 13px;  
+    }
+    .dypatil_card_footer{
+        background-image: linear-gradient(to bottom right, #5de0e6, #004aad);
+    font-size: 30px;
+    color: aliceblue;
+    width: 100%;
+    height:81px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    }
+    .university_card_content{
+        font-size: 13px;
+            }
+  }
+  
+  /* social media...................................................................................... */
+.university_footer_socialmedia {
+  width: 4%;
+  height: 200px;
+  /* background-image: linear-gradient(to bottom right, #5de0e6, #004aad); */
+  position: sticky;
+  /* left: 10px; */
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.university_icons img {
+  width: 50px;
+  border-radius: 40px;
+  /* margin-left: 10px; */
+
+
+}
+
+.university_icons img:hover {
+  width: 50px;
+  border-radius: 40px;
+  margin-left: 6px;
+  box-shadow: 0px 0px 12px 2px orange;
+  rotate: 180deg;
+  transition: 0.4s linear;
+
+}
+  
+  

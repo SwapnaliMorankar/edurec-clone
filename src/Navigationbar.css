@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  position: static;
+  z-index: 3;
+}
+
+#edurec-logo {
+  width: 200px;
+ 
+}
+
+.navbar-nav {
+  margin-left: 150px;
+  text-align: center;
+
+}
+
+.home-navbar-name {
+  border-bottom: 1px solid #000000;
+  font-size: 29px;
+  color: #000000;
+  
+
+}
+
+.home-navbar-name:hover {
+  border-bottom: 4px solid #fe0606;
+  color: gray;
+
+}
+
+/* title and inquiry form---------------------------start--------------------------- */
+.Home_form_and_title {
+  width: 100%;
+  height: 400px;
+
+}
+
+.Home_form_and_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  padding: 30px;
+  text-align: left;
+
+}
+
+.home_title_box {
+  width: 50%;
+  /* background-color: antiquewhite; */
+  font-size: 55px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.home_inquiry_box {
+  width: 50%;
+  /* background-color: rgb(165, 104, 23); */
+  padding-left: 100px;
+}
+
+/* title and inquiry form---------------------------end--------------------------- */
+.bg-body-tertiary {
+  background-color: transparent !important;
+  /* Make the navbar transparent */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.nav-link {
+  margin-left: 70px;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+
+}
+
+
+.navbar {
+  background-color: transparent;
+}
+
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .home_title_box {
+    width: 50%;
+    /* background-color: antiquewhite; */
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    display: none;
+  }
+
+  .home_inquiry_box {
+    width: 100%;
+    margin: auto;
+    padding-left: 0px;
+  }
+
+  .Home_form_and_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding: 30px;
+    text-align: left;
+
+  }
+
+  /* footer area---------------------------------------------- */
+
+  .home_footer_socialmedia {
+    width: 4%;
+    height: 200px;
+    /* background-image: linear-gradient(to bottom right, #5de0e6, #004aad); */
+    position: sticky;
+    /* left: 10px; */
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons img {
+    width: 30px;
+    border-radius: 40px;
+    /* margin-left: 10px; */
+
+
+  }
+
+  .icons img:hover {
+    width: 30px;
+    border-radius: 40px;
+    margin-left: 6px;
+    box-shadow: 0px 0px 12px 2px orange;
+    rotate: 180deg;
+    transition: 0.4s linear;
+
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .home_title_box {
+    width: 50%;
+
+    font-size: 55px;
+    font-weight: 700;
+    display: none;
+  }
+
+  .home_inquiry_box {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .Home_form_and_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding: 30px;
+    text-align: left;
+
+  }
+  .home_footer_socialmedia {
+    width: 4%;
+    height: 200px;
+    /* background-image: linear-gradient(to bottom right, #5de0e6, #004aad); */
+    position: sticky;
+    /* left: 10px; */
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icons img {
+    width: 20px;
+    border-radius: 40px;
+    /* margin-left: 10px; */
+  
+  
+  }
+  
+  .icons img:hover {
+    width: 30px;
+    border-radius: 40px;
+    margin-left: 6px;
+    box-shadow: 0px 0px 12px 2px orange;
+    rotate: 180deg;
+    transition: 0.4s linear;
+  
+  }
+}
+
+
+.responsive-div {
+  width: 100%;
+  padding: 10px;
+  height: 700px;
+  background-image: linear-gradient(to bottom right, #5de0e6, #004aad);
+  /* color: #fff; */
+  text-align: center;
+  font-size: 18px;
+  clip-path: polygon(61% 0, 100% 0, 100% 100%, 45% 100%, 23% 83%, 0 100%, 0 0);
+  box-sizing: border-box;
+}
+
+
+
+
+/* social media...................................................................................... */
+.home_footer_socialmedia {
+  width: 4%;
+  height: 200px;
+  /* background-image: linear-gradient(to bottom right, #5de0e6, #004aad); */
+  position: sticky;
+  /* left: 10px; */
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.icons img {
+  width: 50px;
+  border-radius: 40px;
+  /* margin-left: 10px; */
+
+
+}
+
+.icons img:hover {
+  width: 50px;
+  border-radius: 40px;
+  margin-left: 6px;
+  box-shadow: 0px 0px 12px 2px orange;
+  rotate: 180deg;
+  transition: 0.4s linear;
+
+}

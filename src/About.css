@@ -1,0 +1,677 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FIRST PHOTO SECTION */
+.About1{
+    width: 100%;
+    height: 650px;
+    background-image: url(AboutuspageEDUrec.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 190px;
+    /* margin-top: 90px; */
+}
+.about1a{
+    width: 370px;
+    height: 250px;
+    border: 4px solid black;
+    color: black;
+    margin-left: 90px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    text-shadow: 1.5px 1.5px #e1dddd;
+    box-shadow: 3px 3px 14px 3px #000000;
+}
+.about1a h2{
+    font-size: 1.2cm;
+}
+/* FIRST PHOTO SECTION */
+
+
+/* SECOND INFO SECTION */
+.about2{
+    width: 74%;
+    height: auto;
+    background-color: #d1f0f1;
+    margin-top: 80px;
+    margin-left: 13%;
+    border-radius: 10px;
+    padding-top: 30px;
+    border: 3px solid #004AAD;
+    box-shadow: 5px 5px 15px 1px #a4eef0;
+    padding-bottom: 20px;
+}
+.about2 h1{
+    text-align: center;
+    font-size: 1cm;
+}
+.about2 p{
+    margin-top: 25px;
+    margin-left: 40px;
+    text-align: justify;
+    margin-right: 40px;
+    font-size: 17px;
+    line-height: 0.7cm;
+}
+/* SECOND INFO SECTION */
+
+
+/* THIRD DIAMOND SECTION   */
+.about3{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    /* background-color: cadetblue; */
+}
+.about3a{
+    width: 60%;
+    height: 32%;
+    margin-left: 40px;
+    color: #004AAD;
+    /* background-color: rgb(165, 163, 42); */
+}
+.about3b{
+    width: 60%;
+    height: 100%;
+    /* background-color: brown; */
+}
+.aboutbox{
+    height: 310px;
+    width: 310px;
+    background-image: linear-gradient(to bottom right, #5DE0E6, #004AAD);   
+    rotate: 45deg;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px #649fec;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.aboutbox img{
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+}
+.one{
+    position: absolute;
+    top: 1320px;
+    right: 120px;
+}
+.two{
+    position: absolute;
+    top: 1200px;
+    right: 470px;
+}
+.three{
+    position: absolute;
+    top: 1570px;
+    right: 360px;
+}
+.h11{
+    font-size: 1.2cm;
+    text-align: center;
+}
+.h12{
+    font-size: 2.4cm;
+    text-align: center;
+}
+.h13{
+    font-size: 1.5cm;
+    text-align: center;
+}
+/* THIRD DIAMOND SECTION   */
+
+/* FOURTH MISSION AND VISON SECTION */
+
+.about6{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 80px;
+}
+.leftbox{
+    height: 100%;
+    width: 50%;
+    color: black;
+    background-color: #5DE0E6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.leftbox h1{
+    text-align: center;
+    font-style: italic;
+}
+.leftbox li{
+    text-align: justify;
+    font-size: 0.48cm;
+    margin-top: 10px;
+}
+.rightbox{
+    height: 100%;
+    width: 50%;
+    color: white;
+    background-color: #004AAD;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 30px;
+}
+.rightbox h1{
+    text-align: center;
+    font-style: italic;
+}
+.rightbox li{
+    text-align: justify;
+    font-size: 0.48cm;
+    margin-top: 10px;
+}
+
+/* FOURTH MISSION AND VISON SECTION */
+
+/* LAST REGISTER SECTION */
+.about7{
+    width: 100%;
+    height: 450px;
+    background-color: #1e5baa;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about7a{
+    width: 50%;
+    height: 100%;
+    background-image: url("Aboutimg3.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#form1{
+    width: 320px;
+    height: 350px;
+    border: 3px solid white;
+    margin-top: 55px;
+    margin: auto;
+}
+.about7b{
+    height: 100%;
+    width: 50%;
+    margin-top: 50px;
+    padding-top: 00px;
+}
+.about7b input{
+    width: 230px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about7b input:hover{
+    box-shadow: 1px 1px 5px 1px white;
+    scale: 1.05;
+}
+.about7b h2{
+    margin-top: 20px;
+    font-size: xx-large;
+    color: white;
+    margin-left: 48px;
+}
+.about7b button{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 95px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+.about7b button:hover{
+    scale: 1.08;
+    background-color:#5DE0E6;
+}
+/* LAST REGISTER SECTION */
+
+
+/* RESPONSIVE CODE */
+@media (max-width: 1457px) {
+    .about3a {
+        width: 40%;
+        height: 32%;
+        margin-left: 20px;
+    }
+    .aboutbox{
+        height: 280px;
+        width: 280px;
+    }
+  }
+@media (max-width: 1275px) {
+    .about1a {
+        width: 320px;
+        margin-left: 40px;
+        padding-top: 20px;
+    }
+    .about1a h2{
+        font-size: 1cm;
+    }
+    .about3{
+        height: 800px;
+    }
+    .about3a {
+        width: 30%;
+        height: 32%;
+        margin-left: 20px;
+    }
+    .aboutbox{
+        height: 250px;
+        width: 250px;
+    }
+    .leftbox{
+        height: 650px;
+    }
+    .rightbox{
+        height: 650px;
+    }
+    .about7{
+        margin-top: 300px;
+    }
+  }
+@media (max-width: 1033px) {
+    .About1 {
+      height: 400px;
+      padding-top: 130px;
+    }
+    .about1a {
+        width: 250px;
+        height: 200px;
+    }
+    .about1a h2{
+        font-size: 0.8cm;
+    }
+    .about3{
+        height: 650px;
+    }
+    .about3a {
+        width: 30%;
+        height: 32%;
+        margin-left: 20px;
+    }    
+    .aboutbox{
+        height: 200px;
+        width: 200px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .one{
+        top: 1200px;
+        right: 80px;
+    }
+    .two{
+        top: 1080px;
+        right: 300px;
+    }
+    .three{
+        top: 1390px;
+        right: 260px;
+    }
+    .h11{
+        font-size: 1.2cm;
+        margin-top: -50px;
+    }
+    .h12{
+        font-size: 1.8cm;
+    }
+    .h13{
+        font-size: 1.3cm;
+    }
+    .about5{
+        height: 350px;
+        width: 60%;
+        margin-top: 150px;   
+    }
+    .about5a,.about5b{
+        padding-top: 110px;
+    }
+    .about7 form{
+        margin-left: 15%;
+    }
+    .about7{
+        margin-top: 550px;
+    }
+    .about6{
+        width: 60%;
+        margin-top: 100px;
+    }
+    .leftbox{
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .rightbox{
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+  }
+@media (max-width: 803px) {
+    .About1 {
+      height: 300px;
+      padding-top: 120px;
+    }
+    .about1a {
+        width: 150px;
+        height: 120px;
+        margin-left: 30px;
+        padding-top: 5px;
+    }
+    .about1a h2{
+        font-size: 0.5cm;
+    }
+    .about3{
+        height: 500px;
+    }
+    .about3a {
+        width: 30%;
+        height: 32%;
+        margin-left: 20px;
+    }    
+    .aboutbox{
+        height: 150px;
+        width: 150px;
+    }
+    .one{
+        top: 1100px;
+        right: 50px;
+    }
+    .two{
+        top: 1020px;
+        right: 250px;
+    }
+    .three{
+        top: 1230px;
+        right: 200px;
+    }
+    .h11{
+        font-size: 1cm;
+        margin-top: -80px;
+    }
+    .h12{
+        font-size: 1.5cm;
+    }
+    .h13{
+        font-size: 1.1cm;
+    }
+    .about5{
+        height: 300px;
+        width: 70%;
+        margin-top: 150px;   
+    }
+    .about5a,.about5b{
+        padding-top: 80px;
+    }
+    .about7 form{
+        margin-left: 5%;
+    }
+    .about6{
+        width: 80%;
+    }
+  }
+@media (max-width: 679px) {
+    .about3a{
+        width: 100%;
+        height: 20%;
+        margin-top: -250px;
+    }
+    .about3a h1{
+        font-size: 1cm;
+        margin-left: 15px;
+    }
+    .about3b{
+        width: 0%;
+        height: 0%;
+    }
+    .aboutbox{
+        height: 150px;
+        width: 150px;
+    }
+    .one{
+        top:1250px;
+        left: 40%;
+    }
+    .two{
+        top:1400px;
+        left: 14%;
+    }
+    .three{
+        top: 1400px;
+        left: 65%;
+    }
+    .about5{
+        height: 300px;
+        width: 80%;
+        margin-top: 150px;  
+        font-size: 0.6cm; 
+    }
+    .about5a,.about5b{
+        padding-top: 80px;
+    }
+    .about7{
+        display: block;
+        margin-top: 650px;
+    }
+    .about7a{
+        width: 100%;
+    }
+    .about7 form{
+        margin-left: 25%;
+    }
+    .about7b{
+        margin-top: 50px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .about6{
+        width: 90%;
+
+    }
+  }
+@media (max-width: 634px) {
+    .about3a{
+        width: 100%;
+        height: 30%;
+        margin-top: -250px;
+    }
+    .about3a h1{
+        font-size: 1cm;
+    }
+    .about3{
+        display: block;
+        height: 600px;
+        margin-top: 300px;
+    }
+    .about3b{
+        width: 100%;
+        height: 70%;
+    }
+    .one{
+        top:1400px;
+        left: 40%;
+    }
+    .two{
+        top:1550px;
+        left: 14%;
+    }
+    .three{ 
+        top: 1550px;
+        left: 65%;
+    }
+    .about7{
+        margin-top: 650px;
+    }
+  }
+@media (max-width:548px) {
+    .one{
+        top:1500px;
+        left: 40%;
+    }
+    .two{
+        top:1650px;
+        left: 14%;
+    }
+    .three{ 
+        top: 1650px;
+        left: 65%;
+    }
+}
+@media (max-width: 487px) {
+    .About1 {
+      height: 200px;
+    }
+    .about1a {
+        display: none;
+    }
+    .about2 h1{
+        font-size: 0.8cm;
+    }
+    .about3a{
+        width: 100%;
+        height: 30%;
+        margin-top: -250px;
+        margin-left: 9px;
+    }
+    .about3a h1{
+        font-size: 1cm;
+    }
+    .about3{
+        display: block;
+        height: 600px;
+        margin-top: 300px;
+    }
+    .about3b{
+        width: 100%;
+        height: 70%;
+    }
+    .aboutbox{
+        display: none;
+    }
+    .about5{
+        height: 250px;
+        width: 90%;
+        margin-top: -350px;
+        font-size: 0.4cm;
+        margin-left: 5%;  
+    }
+    .about5a,.about5b{
+        padding-top: 80px;
+    }
+    .about7{
+        display: block;
+        margin-top: 850px;
+    }
+    .about7a{
+        width: 100%;
+    }
+    .about7 form{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .about7b{
+        margin-top: 50px;
+        width: 100%;;
+    }
+    .about6{
+        margin-top: -300px;
+    }
+  }
+  @media (max-width:439px) {
+    .about7{
+        margin-top: 1000px;
+    }
+  }
+  @media (max-width: 393px) {
+    .About1 {
+      height: 200px;
+    }
+    .about1a {
+        display: none;
+    }
+    .about2{
+        width: 80%;
+        margin-left: 13%;
+    }
+    .about3a{
+        width: 100%;
+        height: 30%;
+        margin-top: -250px;
+    }
+    .about3a h1{
+        font-size: 1cm;
+        margin: auto;
+    }
+    .about3{
+        display: block;
+        height: 600px;
+        margin-top: 300px;
+    }
+    .about3b{
+        width: 100%;
+        height: 70%;
+    }
+    .aboutbox{
+        display: none;
+    }
+    .about5{
+        height: 200px;
+        width: 90%;
+        margin-top: -380px; 
+        font-size: 0.3cm;
+        margin-left: 5%; 
+    }
+    .about5a,.about5b{
+        padding-top: 80px;
+    }
+    .about7{
+        display: block;
+        margin-top: 1250px;
+    }
+    .about7a{
+        width: 100%;
+    }
+    .about7 form{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .about7b{
+        margin-top: 50px;
+        width: 100%;
+    }
+  }
+  @media (max-width:358px) {
+    #new1{
+        display: none;
+    }
+    #new2{
+        display: none;
+    }
+    .about7{
+        margin-top: 900px;
+    }
+  }
+
+
+
+ 
