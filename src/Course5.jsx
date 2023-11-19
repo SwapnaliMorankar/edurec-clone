@@ -1,22 +1,22 @@
 import React from 'react'
 import './Course5.css';
-import uttaranchal1 from './uttaranchal1.jpg';
-import uttaranchal2 from './uttaranchal2.jpg';
-import mba1 from './mba.jpeg';
-import bba1 from './bba.jpeg';
-import mca1 from './mca.jpeg';
-import bca1 from './bca.jpg';
-import ba from './ba.jpeg';
+import uttaranchal1 from './University_related_images/uttaranchal1.jpg';
+import uttaranchal2 from './University_related_images/uttaranchal2.jpg';
+import mba1 from './Courses_images/MBA_image.jpg';
+import bba1 from './Courses_images/BBA_image.jpg';
+import bca1 from './Courses_images/BCA_image.jpg';
+import mca1 from './Courses_images/MCA_image.jpg';
+import ba from './Courses_images/BA_image.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navigationbar.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import instalogo from './instagram.jpeg'
+import instalogo from './Other_images/instagram.jpeg'
 
-import facebooklogo from './facebook.png'
-import whatsapplogo from './whatsapp.png'
-import Edureclogo from './Edureclogo.png'
+import facebooklogo from './Other_images/facebook.png'
+import whatsapplogo from './Other_images/whatsapp.png'
+import Edureclogo from './Other_images/Edureclogo.png'
 import Inquiry_form from './Inquiry_form';
 import { Link, Outlet } from 'react-router-dom';
 import Home_footer from './Home_footer';

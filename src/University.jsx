@@ -1,27 +1,27 @@
 import React from 'react'
 import './University.css'
-import dypatil from './uttaranchal_carousel.jpg'
+import dypatil from './University_related_images/uttaranchal_carousel.jpg'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Edureclogo from './Edureclogo.png'
+import Edureclogo from './Other_images/Edureclogo.png'
 import './Navigationbar.css';
 import Home_footer from './Home_footer';
 import Carousel from 'react-bootstrap/Carousel';
 import './Home_top_courses.css';
-import carousel2 from './carouselimg2.jpg'
-import carousel3 from './carouselimg3.jpg'
-import manipalcard from './manipalcard_university.webp'
-import jaincard from './jaincard_university.jpg'
-import amitycard from './amitycard_university.jpg'
-import lpucard from './lpucard_university.jpg'
-import mangalacard from './mangalacard_university.webp'
-import swamicard from './swamicard_university.png'
-import dypatilcard from './dypatilcard_university.jpg'
-import instalogo from './instagram.jpeg'
-import facebooklogo from './facebook.png'
-import whatsapplogo from './whatsapp.png'
+import carousel2 from './University_related_images/carouselimg2.jpg'
+import carousel3 from './University_related_images/carouselimg3.jpg'
+import manipalcard from './University_related_images/manipalcard_university.webp'
+import jaincard from './University_related_images/jaincard_university.jpg'
+import amitycard from './University_related_images/amitycard_university.jpg'
+import lpucard from './University_related_images/lpucard_university.jpg'
+import mangalacard from './University_related_images/mangalacard_university.webp'
+import swamicard from './University_related_images/swamicard_university.png'
+import dypatilcard from './University_related_images/dypatilcard_university.jpg'
+import instalogo from './Other_images/instagram.jpeg'
+import facebooklogo from './Other_images/facebook.png'
+import whatsapplogo from './Other_images/whatsapp.png'
 import { Link, Outlet } from 'react-router-dom';
 
 

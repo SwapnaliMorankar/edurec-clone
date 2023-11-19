@@ -1,29 +1,29 @@
 import React from 'react'
 import './Course7.css';
-import mangal1 from './mangal1.webp';
-import mangal2 from './mangal2.jpeg';
-import mba1 from './mba.jpeg';
-import bba1 from './bba.jpeg';
-import bca1 from './bca.jpg';
-import mca1 from './mca.jpeg';
-import bcom1 from './bcom.jpg';
-import mcom1 from './mcom.jpg';
-import ba from './ba.jpeg';
-import ma from './ma.jpg';
-import bsc from './bsc.jpg'
-import dca from './dca.jpg';
-import pgdca from './pgdca.jpg'
-import msc from './msc.jpg'
+import mangal1 from './University_related_images/mangal1.webp';
+import mangal2 from './University_related_images/mangal2.jpeg';
+import mba1 from './Courses_images/MBA_image.jpg';
+import bba1 from './Courses_images/BBA_image.jpg';
+import bca1 from './Courses_images/BCA_image.jpg';
+import mca1 from './Courses_images/MCA_image.jpg';
+import bcom1 from './Courses_images/BCOM_image.jpg';
+import mcom1 from './Courses_images/MCOM_image.jpg';
+import ba from './Courses_images/BA_image.jpg';
+import ma from './Courses_images/MA_image.jpg';
+import bsc from './Courses_images/BSC_image.jpg'
+import dca from './Courses_images/DCA_image.jpg';
+import pgdca from './Courses_images/PGDCA_image.jpg'
+import msc from './Courses_images/MSC_image.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navigationbar.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import instalogo from './instagram.jpeg'
+import instalogo from './Other_images/instagram.jpeg'
 
-import facebooklogo from './facebook.png'
-import whatsapplogo from './whatsapp.png'
-import Edureclogo from './Edureclogo.png'
+import facebooklogo from './Other_images/facebook.png'
+import whatsapplogo from './Other_images/whatsapp.png'
+import Edureclogo from './Other_images/Edureclogo.png'
 import Inquiry_form from './Inquiry_form';
 import { Link, Outlet } from 'react-router-dom';
 import Home_footer from './Home_footer';

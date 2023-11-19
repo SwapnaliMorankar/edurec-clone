@@ -1,7 +1,6 @@
-
 .home_top_courses_container{
     
-    position: relative;
+   position: relative;
     display: flex;
     justify-content: space-between;
     /* margin: 15px auto; */
@@ -27,7 +26,6 @@
     transition: 0.5s;
     /* margin-top: 10px; */
 }
- 
 .home_top_courses_container .card .face.face1{
     position: relative;
     background: #333;
@@ -141,7 +139,7 @@
 .Home_our_top_courses{
     font-size: 70px;
     font-weight: 900;
-    background-image: url(Whoarewe.png);
+    background-image: url(Other_images/Whoarewe.png);
     background-size: cover;
     background-position: center;
     background-clip: text;
@@ -156,7 +154,7 @@
     .Home_our_top_courses{
       font-size: 50px;
       font-weight: 900;
-      background-image: url(Whoarewe.png);
+      background-image: url(Other_images/Whoarewe.png);
       background-size: cover;
       background-position: center;
       background-clip: text;
@@ -170,7 +168,7 @@
   .boyimg{
     height: 200px;
     width: 100%;
-    background-image: url(boyanimation_imgfinal.jpg);
+    background-image: url(Other_images/boyanimation_imgfinal.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: aqua;
@@ -184,7 +182,7 @@
     .Home_our_top_courses{
       font-size: 40px;
       font-weight: 900;
-      background-image: url(Whoarewe.png);
+      background-image: url(Other_images/Whoarewe.png);
       background-size: cover;
       background-position: center;
       background-clip: text;
@@ -198,7 +196,7 @@
   .boyimg{
     height: 400px;
     width: 100%;
-    background-image: url(boyanimation_imgfinal.jpg);
+    background-image: url(Other_images/boyanimation_imgfinal.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: aqua;
@@ -236,7 +234,7 @@
   .boyimg{
 height: 550px;
 width: 400px;
-background-image: url(boyanimation_imgfinal.jpg);
+background-image: url(Other_images/boyanimation_imgfinal.jpg);
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-color: aqua;

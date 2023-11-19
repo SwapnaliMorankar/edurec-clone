@@ -1,10 +1,10 @@
 import React from 'react'
 import './About.css'
-import frame10 from './Frame 10.png';
-import frame11 from './Frame 11.png';
-import frame12 from './Frame 12.png';
+import frame10 from './Other_images/Frame 10.png';
+import frame11 from './Other_images/Frame 11.png';
+import frame12 from './Other_images/Frame 12.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Edureclogo from './Edureclogo.png'
+import Edureclogo from './Other_images/Edureclogo.png'
 
 import './Navigationbar.css';
 import Container from 'react-bootstrap/Container';
@@ -14,31 +14,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link, Outlet } from 'react-router-dom';
 import Home_footer from './Home_footer';
 
-
-import instalogo from './instagram.jpeg'
-import facebooklogo from './facebook.png'
-import whatsapplogo from './whatsapp.png'
+import instalogo from './Other_images/instagram.jpeg'
+import facebooklogo from './Other_images/facebook.png'
+import whatsapplogo from './Other_images/whatsapp.png'
 
 function About() {
 
-    function expand(){
-      document.querySelector(".about5").style.display="none";
-      document.querySelector(".about5a").style.display="none";
-      document.querySelector(".about5b").style.display="none";
-      document.querySelector(".about6").style.display="flex";
-      document.querySelector(".leftbox").style.display="block";
-      document.querySelector(".mainbox").style.display="block";
-      document.querySelector(".rightbox").style.display="block";
-    }
-    function compress(){
-      document.querySelector(".about5").style.display="flex";
-      document.querySelector(".about5a").style.display="block";
-      document.querySelector(".about5b").style.display="block";
-      document.querySelector(".about6").style.display="none";
-      document.querySelector(".leftbox").style.display="none";
-      document.querySelector(".mainbox").style.display="none";
-      document.querySelector(".rightbox").style.display="none";
-    }
 
   return (
     <>

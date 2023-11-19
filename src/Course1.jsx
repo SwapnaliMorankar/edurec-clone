@@ -1,19 +1,18 @@
 import React from 'react'
 import './Course1.css';
-import mba1 from './mba.jpeg';
-import bba1 from './bba.jpeg';
-import dypatil1 from './dypatil1.jpg';
-import dypatil3 from './dypatil3.png';
+import mba1 from './Courses_images/MBA_image.jpg';
+import bba1 from './Courses_images/BBA_image.jpg';
+import dypatil1 from './University_related_images/dypatil1.jpg';
+import dypatil3 from './University_related_images/dypatil3.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navigationbar.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import instalogo from './instagram.jpeg'
-
-import facebooklogo from './facebook.png'
-import whatsapplogo from './whatsapp.png'
-import Edureclogo from './Edureclogo.png'
+import instalogo from './Other_images/instagram.jpeg'
+import facebooklogo from './Other_images/facebook.png'
+import whatsapplogo from './Other_images/whatsapp.png'
+import Edureclogo from './Other_images/Edureclogo.png'
 import Inquiry_form from './Inquiry_form';
 import { Link, Outlet } from 'react-router-dom';
 import Home_footer from './Home_footer';

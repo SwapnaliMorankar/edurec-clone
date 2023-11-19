@@ -8,7 +8,7 @@
 .About1{
     width: 100%;
     height: 650px;
-    background-image: url(AboutuspageEDUrec.png);
+    background-image: url(Other_images/Aboutus_topimage.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-top: 190px;
@@ -191,7 +191,7 @@
 .about7a{
     width: 50%;
     height: 100%;
-    background-image: url("Aboutimg3.webp");
+    background-image: url(Other_images/Aboutus_topimage.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }

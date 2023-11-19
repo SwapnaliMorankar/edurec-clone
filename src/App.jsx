@@ -14,13 +14,6 @@ import Course8 from './Course8'
 import Support from './Support'
 import About from './About'
 
-
-
-
-
-
-
-
 function App() {
   return (
     <>

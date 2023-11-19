@@ -1,25 +1,26 @@
 import React from 'react'
 import './Course8.css';
-import swami1 from './swami1.png';
-import swami2 from './swami2.jpg';
-import mba1 from './mba.jpeg';
-import bba1 from './bba.jpeg';
-import blib from './blib.png';
-import mlib from'./mlib.jpg';
-import bcom1 from './bcom.jpg';
-import mcom1 from './mcom.jpg';
-import ba from './ba.jpeg';
-import ma from './ma.jpg';
+import swami1 from './University_related_images/swami1.png';
+import swami2 from './University_related_images/swami2.jpg';
+import mba1 from './Courses_images/MBA_image.jpg';
+import bba1 from './Courses_images/BBA_image.jpg';
+import bcom1 from './Courses_images/BCOM_image.jpg';
+import mcom1 from './Courses_images/MCOM_image.jpg';
+import ba from './Courses_images/BA_image.jpg';
+import ma from './Courses_images/MA_image.jpg';
+import blib from './Courses_images/BLIB_image.jpg';
+import mlib from'./Courses_images/MLIB_image.jpg';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navigationbar.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import instalogo from './instagram.jpeg'
+import instalogo from './Other_images/instagram.jpeg'
 
-import facebooklogo from './facebook.png'
-import whatsapplogo from './whatsapp.png'
-import Edureclogo from './Edureclogo.png'
+import facebooklogo from './Other_images/facebook.png'
+import whatsapplogo from './Other_images/whatsapp.png'
+import Edureclogo from './Other_images/Edureclogo.png'
 import Inquiry_form from './Inquiry_form';
 import { Link, Outlet } from 'react-router-dom';
 import Home_footer from './Home_footer';

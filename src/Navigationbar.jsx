@@ -7,11 +7,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Inquiry_form from './Inquiry_form';
 import { Link, Outlet } from 'react-router-dom';
-import Edureclogo from './Edureclogo.png'
+import Edureclogo from './Other_images/Edureclogo.png'
 
-import instalogo from './instagram.jpeg'
-import facebooklogo from './facebook.png'
-import whatsapplogo from './whatsapp.png'
+import instalogo from './Other_images/instagram.jpeg'
+import facebooklogo from './Other_images/facebook.png'
+import whatsapplogo from './Other_images/whatsapp.png'
 
 function Navigationbar() {
   return (

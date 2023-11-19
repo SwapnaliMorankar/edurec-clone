@@ -1,28 +1,27 @@
 import React from 'react'
 import './Course4.css';
-import amity1 from './amity1.jpeg';
-import amity2 from './amity2.png';
-import mba1 from './mba.jpeg';
-import bba1 from './bba.jpeg';
-import bca1 from './bca.jpg';
-import mca1 from './mca.jpeg';
-import bcom1 from './bcom.jpg';
-import mcom1 from './mcom.jpg';
-import ba from './ba.jpeg';
-import ma from './ma.jpg';
-import bajmc from './bajmc.jpg';
-import majmc from './majmc.png';
-import aiml from './aiml.jpg';
+import amity1 from './University_related_images/amity1.jpeg';
+import amity2 from './University_related_images/amity2.png';
+import mba1 from './Courses_images/MBA_image.jpg';
+import bba1 from './Courses_images/BBA_image.jpg';
+import bca1 from './Courses_images/BCA_image.jpg';
+import mca1 from './Courses_images/MCA_image.jpg';
+import bcom1 from './Courses_images/BCOM_image.jpg';
+import mcom1 from './Courses_images/MCOM_image.jpg';
+import ba from './Courses_images/BA_image.jpg';
+import ma from './Courses_images/MA_image.jpg';
+import bajmc from './Courses_images/JAMPC_image.jpg';
+import majmc from './Courses_images/MAMPC_image.jpg';
+import aiml from './Courses_images/AIML_image.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navigationbar.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import instalogo from './instagram.jpeg'
-
-import facebooklogo from './facebook.png'
-import whatsapplogo from './whatsapp.png'
-import Edureclogo from './Edureclogo.png'
+import instalogo from './Other_images/instagram.jpeg'
+import facebooklogo from './Other_images/facebook.png'
+import whatsapplogo from './Other_images/whatsapp.png'
+import Edureclogo from './Other_images/Edureclogo.png'
 import Inquiry_form from './Inquiry_form';
 import { Link, Outlet } from 'react-router-dom';
 import Home_footer from './Home_footer';

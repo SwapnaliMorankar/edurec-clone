@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home_footer.css';
-import Edureclogo from './Edureclogo.png'
+import Edureclogo from './Other_images/Edureclogo.png'
 import { Link } from 'react-router-dom';
 import Popup_enquiry from './Popup_enquiry';
 import Course_popup from './Course_popup';
