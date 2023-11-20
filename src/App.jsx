@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Home from './Home'
 import University from './University'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import Popup_enquiry from './Popup_enquiry'
 import Course1 from './Course1'
 import Course2 from './Course2'
@@ -23,6 +23,11 @@ import Inquiry_form from './Inquiry_form'
 
 
 function App() {
+  var {pathname}=useLocation();
+
+  useEffect(()=>{
+window.scrollTo({top:0, behavior:"auto"});
+  },[pathname])
   return (
     <>
     {/* <Inquiry_form/> */}

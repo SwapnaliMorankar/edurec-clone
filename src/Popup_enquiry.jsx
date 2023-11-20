@@ -10,8 +10,9 @@ function Popup_enquiry() {
    
     document.querySelector(".my_popup").style.display="none";
     document.querySelector(".popup_enquiry_form").style.display="none";
-    navigate("/university");
+    
     document.querySelector(".blur").style.cssText = 'filter: blur(0px); -webkit-filter: blur(0px); -o-filter:blur(0px);-ms-filter:blur(0px);';
+    navigate("/university");
     // document.querySelector(".blu2").style.cssText = 'filter: blur(0px); -webkit-filter: blur(0px); -o-filter:blur(0px);-ms-filter:blur(0px);';
 
   }
