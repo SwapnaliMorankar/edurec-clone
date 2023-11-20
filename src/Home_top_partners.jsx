@@ -4,8 +4,6 @@ import Button from 'react-bootstrap/Button';
 import Popup_enquiry from './Popup_enquiry';
 import { Link, useNavigate } from 'react-router-dom';
 
-
-
 function Home_top_partners() {
  
   function show_popup() {
@@ -20,27 +18,27 @@ function Home_top_partners() {
   return (
     <>
 
-
 <body className='blur'>
+      <div data-aos="fade-right" data-aos-duration="3000">
       <h2 className='Home_our_top_partners' id='partners'>OUR TOP PARTNERS</h2>
+      </div>
+ 
+      <div data-aos="zoom-in" data-aos-duraton="5000">
       <div className="home_top_partners">
         <div className="home_partner_card">
           <div class="stack1">
             <div class="layer layer_11">
-
               Dr Dy Patil Vidyapeeth
             </div>
             <div class="layer layer_21">
-
-
             </div>
             <div class="layer layer_3">
-             <Link to="/dypatil" >Learn More</Link>
-               
-              
+             <Link to="/dypatil" >Learn More</Link> 
             </div>
           </div></div>
+
         {/* CARD ONE ENDED ..................................................................*/}
+      
         <div className="home_partner_card">
           <div class="stack2">
             <div class="layer layer_12">
@@ -53,7 +51,9 @@ function Home_top_partners() {
             <Link to="/manipal">Learn More</Link>
             </div>
           </div></div>
+       
         {/* CARD TOW ENDED...................................................................... */}
+   
         <div className="home_partner_card">
           <div class="stack3">
             <div class="layer layer_13">
@@ -66,7 +66,9 @@ function Home_top_partners() {
             <Link to="/jain">Learn More</Link>
             </div>
           </div></div>
+         
         {/* CARD THREE ENDED........................................................................................ */}
+
         <div className="home_partner_card">
           <div class="stack4">
             <div class="layer layer_14">
@@ -79,7 +81,9 @@ function Home_top_partners() {
             <Link to="/amity">Learn More</Link>
             </div>
           </div></div>
+    
         {/* CARD FOUR ENDED.................................................................................................................. */}
+    
         <div className="home_partner_card">
           <div class="stack5">
             <div class="layer layer_15">
@@ -92,7 +96,9 @@ function Home_top_partners() {
             <Link to="/uttaranchal">Learn More</Link>
             </div>
           </div></div>
+     
         {/* CARD FIVE ENDED...................................................................................... */}
+     
         <div className="home_partner_card">
           <div class="stack6">
             <div class="layer layer_16">
@@ -106,12 +112,12 @@ function Home_top_partners() {
             </div>
 
           </div></div>
+      
+
           <div className="home_partner_card_button">
           <Button variant="outline-danger" className='home_top_partners_viewmore' onClick={show_popup}>View More</Button>{' '}
+        </div>  
         </div>
-        
-       
-   
         </div>
       </body>
       {/* popup-------------------------------------------------- */}

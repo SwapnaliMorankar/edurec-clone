@@ -90,10 +90,13 @@ function University() {
         </div>
       </div>
 
-
+      <div data-aos="fade-right" data-aos-duration="2000">
             <h2 className='Home_our_top_courses' id='courses'>UNIVERSITIES</h2>
+        </div>  
 
             <div className="university_flex_container">
+
+            <div data-aos="zoom-in" data-aos-duration="2000">
                 <div class="university_card">
                     <div class="university_content">
                         <div class="front">
@@ -126,6 +129,9 @@ function University() {
                         </div>
                     </div>
                 </div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-duration="2000">
                 <div class="university_card">
                     <div class="university_content">
                         <div class="front">
@@ -158,6 +164,10 @@ function University() {
                         </div>
                     </div>
                 </div>
+                </div>
+
+
+                <div data-aos="zoom-in" data-aos-duration="2000">
                 <div class="university_card">
                     <div class="university_content">
                         <div class="front">
@@ -190,6 +200,9 @@ function University() {
                         </div>
                     </div>
                 </div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-duration="2000">
                 <div class="university_card">
                     <div class="university_content">
                         <div class="front">
@@ -222,6 +235,9 @@ function University() {
                         </div>
                     </div>
                 </div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-duration="2000">
                 <div class="university_card">
                     <div class="university_content">
                         <div class="front">
@@ -254,6 +270,9 @@ function University() {
                         </div>
                     </div>
                 </div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-duration="2000">
                 <div class="university_card">
                     <div class="university_content">
                         <div class="front">
@@ -286,6 +305,9 @@ function University() {
                         </div>
                     </div>
                 </div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-duration="2000">
                 <div class="university_card">
                     <div class="university_content">
                         <div class="front">
@@ -318,6 +340,9 @@ function University() {
                         </div>
                     </div>
                 </div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-duration="2000">
                 <div class="university_card">
                     <div class="university_content">
                         <div class="front">
@@ -348,6 +373,7 @@ function University() {
 
                         </div>
                     </div>
+                </div>
                 </div>
 
             </div>

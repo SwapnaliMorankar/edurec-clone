@@ -13,15 +13,22 @@ function Home_top_courses() {
    
       document.querySelector(".blur2").style.cssText = 'filter: blur(5px); -webkit-filter: blur(5px); -o-filter:blur(5px);-ms-filter:blur(5px);';
       
-  
     }
   return (
     <>
+    
+    <div data-aos="fade-right" data-aos-duration="2000">
    <div className="blur2">
     <h2 className='Home_our_top_courses' id='courses'>OUR TOP COURSES</h2>
+    </div>
+    </div>
+    
     <div className="Home_top_courses_flex">
-      <div className="boyimg"></div>
+         <div className="boyimg"></div>
+
      <div class="home_top_courses_container">{/* deflaut class just changed the name because old name was*/}
+
+   <div data-aos="zoom-in" data-aos-duraton="5000">
    <div class="card">
       <div class="face face1">
          <div class="content">
@@ -38,7 +45,11 @@ function Home_top_courses() {
             <Link to="/university">Read More </Link>
          </div>
       </div>
+      </div>
    </div>
+
+  
+      <div data-aos="zoom-in" data-aos-duraton="5000">
    <div class="card">
       <div class="face face1">
          <div class="content">
@@ -55,6 +66,10 @@ function Home_top_courses() {
          </div>
       </div>
    </div>
+   </div>
+
+
+   <div data-aos="zoom-in" data-aos-duraton="5000">
    <div class="card">
       <div class="face face1">
          <div class="content">
@@ -72,6 +87,10 @@ function Home_top_courses() {
          </div>
       </div>
    </div>
+   </div>
+
+
+   <div data-aos="zoom-in" data-aos-duraton="5000">
    <div class="card">
       <div class="face face1">
          <div class="content">
@@ -88,12 +107,15 @@ function Home_top_courses() {
          </div>
       </div>
    </div>
+   </div>
+
    <div className="home_partner_card">
     <Button variant="outline-danger" className='home_top_courses_viewmore' onClick={show_popup}>View More</Button>{' '}
     </div>
-</div></div>
-</div>
-<div className="my_popup"><Popup_enquiry /></div>
+      </div>
+      </div>
+   
+      <div className="my_popup"><Popup_enquiry /></div>
     </>
   )
 }

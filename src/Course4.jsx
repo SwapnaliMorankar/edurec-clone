@@ -60,18 +60,25 @@ function Course4() {
       <img src={amity1} alt="" />
     </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course4b">
       <h1>Amity University</h1>
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course4c">
       <p>Amity University, Noida (also known as Amity University Uttar Pradesh) is a private research university located in Noida, India. It was established in 2005 by an Act of the State Legislature of Uttar Pradesh. The university is recognized by University Grants Commission and accredited by the NAAC with grade 'A+'.It has campuses in India and overseas branch campuses in London, Dubai, Singapore and New York. The Amity University has been established by an act of State Legislature and recognized by University Grants Commission (UGC) through the Act of State Legislature.Amity has some of the most talented and dedicated thought leaders in the country who come from the best institutions around the world. Ranked India's # 1 Not-For-Profit Pvt. University. Diverse Learning Mediums, Dedicated Academic Advisor, AI-Professor AMI, Career Services, Doorstep Delivery Of Books, Metaverse Campus, Offline Experiences, Placement Opportunities. University has an approval by UGC, DEB, AICTE, AIU, WES. </p>
     </div>
+    </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course4g">
       <img src={amity2} alt="" />
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course4f">
       <div className="course4fa">
         <div className="coursebox41"><h2>NAAC A+</h2></div>
@@ -82,6 +89,7 @@ function Course4() {
         <div className="coursebox41"><h2>SUPPORT TEAM / MENTOR</h2></div>
       </div>
     </div> 
+    </div>
 
     <div className="course4d">
       <h1>OUR TOP COURSES</h1>

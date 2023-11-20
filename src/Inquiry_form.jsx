@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 function Inquiry_form() {
   return (
     <>		
+      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="linear">
 		<Form className='enquiry_form' >
 		<h1 class="title text-center mb-4">ENQUIRY</h1>
       <Form.Group className="mb-3" controlId="formGroupText">
@@ -24,12 +25,7 @@ function Inquiry_form() {
 				<button type="submit" class="btn btn-primary" tabIndex="-1">Submit Enquiry</button>
 			</div>
     </Form>
-
-			
-		
-			
-			
-	
+    </div>
 
 </>
   )

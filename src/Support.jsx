@@ -79,7 +79,7 @@ function Support() {
             <input type="textarea" placeholder='Submit your query' id='one' required/> <br />
             <button>SUBMIT</button>
           </form>
-          </div>
+        </div>
         </div>
     </div>
  
@@ -87,5 +87,6 @@ function Support() {
     </>
   )
 }
+
 
 export default Support

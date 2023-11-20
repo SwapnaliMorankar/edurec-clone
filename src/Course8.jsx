@@ -59,19 +59,26 @@ function Course8() {
       <img src={swami1} alt="" />
     </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course8b">
       <h1>Swami Vivekanand Subharti University</h1>
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course8c">
       <p>Swami Vivekanand Subharti University is a private university located in Meerut, Uttar Pradesh, India. The university was established in September 2008 and has 14 faculties. Ranked among the top 10% of Universities in India, Swami Vivekanand Subharti University is NAAC "A" Accredited and has received numerous National and International Awards. The University has several constituent colleges which provide higher education in almost all the disciplines like Medical, Dental, Nursing, Physiotherapy, Paramedical, Pharmacy, Naturopathy, Yogic Sciences, Engineering, Management, Law, Journalism, Education, Library, Arts and Science, Hotel Management, Faculty of Science etc. thus engaged in creating academically and technically proficient professionals. The University boasts of highly qualified, dedicated and competent faculty from all walks of life, world class infrastructure, fully equipped Laboratories with latest state-of-the-art equipment and a huge library with recent knowledge resources including e-resources. University has an approval by UGC, DEB, AICTE, AIU, WES.
       </p>
     </div>
+    </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course8g">
       <img src={swami2} alt="" />
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course8f">
       <div className="course8fa">
         <div className="coursebox81"><h2>NAAC A+</h2></div>
@@ -81,6 +88,7 @@ function Course8() {
         <div className="coursebox81"><h2>SUPPORT TEAM / MENTOR</h2></div>
       </div>
     </div> 
+    </div>
 
     <div className="course8d">
       <h1>OUR TOP COURSES</h1>

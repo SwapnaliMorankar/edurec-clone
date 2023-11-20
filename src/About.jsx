@@ -44,17 +44,21 @@ function About() {
             
       {/* FIRST PHOTO SECTION */}
         <div className="About1">
+        <div data-aos="zoom-out" data-aos-duration="2000">
             <div className="about1a">
               <h2>INDIA's <br /> NO.1 Online Consultancy Platform</h2>
+            </div>
             </div>
         </div>
       {/* FIRST PHOTO SECTION */}
 
 
       {/* SECOND INFO SECTION */}
+      <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
         <div className="about2">
               <h1>WHAT IS EDUREC</h1>
                 <p>Welcome to Edurec, a trailblazing platform that redefines the landscape of education by seamlessly merging learning with innovation. At Edurec, our core mission revolves around transforming traditional education paradigms into dynamic, personalized experiences that uplift both students and educators. Our unwavering commitment is to revolutionize the learning process through meticulously tailored solutions that cater to individual needs and foster an environment of growth and empowerment. At Edurec, we're dedicated to remaining at the forefront of educational trends. We continuously evolve our platform to equip learners with the essential skills and knowledge required to excel in a rapidly changing world. Our dynamic approach to education not only addresses current needs but also anticipates future challenges, preparing learners to adapt and succeed in an ever-evolving landscape. </p>
+        </div>
         </div>
       {/* SECOND INFO SECTION */}
       {/* social media sticky=----------------------------------- */}
@@ -73,6 +77,7 @@ function About() {
               <h1 className='h11'>We Are The</h1>
               <h1 className='h12'>BEST</h1>
               <h1 className='h13'>Online Education Consultant</h1>
+          
           </div>
           <div className="about3b">
              <div className="aboutbox one"><img src={frame10} alt="" /></div>
@@ -84,7 +89,7 @@ function About() {
 
 
       {/* FOURTH MISSION AND VISON SECTION */}
-
+        <div data-aos="fade-up" data-aos-duration="1500">
         <div className="about6">
           <div className="leftbox">
             <h1>OUR MISSION</h1>
@@ -105,11 +110,13 @@ function About() {
             </ul>
           </div>
         </div>  
+        </div>
       {/* FOURTH MISSION AND VISON SECTION */}
 
 
       {/* LAST REGISTER SECTION */}
         <div className="about7">
+        {/* <div data-aos="zoom-in-right" data-aos-duration="1500"> */}
           <div className="about7b">
           <form action="" id='form1'>
           <h2>JOIN US NOW</h2>
@@ -119,6 +126,7 @@ function About() {
               <button>SUBMIT</button>
             </form>
             </div>
+            {/* </div> */}
           <div className="about7a">
           </div>
         </div>

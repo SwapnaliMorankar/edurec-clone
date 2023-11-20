@@ -8,12 +8,6 @@ import Home_footer from './Home_footer'
 import Course_popup from './Course_popup'
 import './Home.css'
 
-
-
-
-
-
-
 function Home() {
   return (
     <>
@@ -24,10 +18,7 @@ function Home() {
     <Home_top_partners/>
     <Home_top_courses/>
     <Home_footer/>
-  
 
-
-    
 
     </>
   )

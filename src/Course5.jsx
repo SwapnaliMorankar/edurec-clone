@@ -55,18 +55,25 @@ function Course5() {
       <img src={uttaranchal1} alt="" />
     </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course5b">
       <h1>Uttaranchal University</h1>
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course5c">
       <p>Uttaranchal University has been recognized by the UGC under sections 2(f) and 12 (B) of the UGC Act, 1956, and by other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade” by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first university in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation, thus creating a history. This firmly positions the University among the top 5% HEIs of the nation. The university is undeterred in its mission to provide the best experience to all its students whether regional, national or international, through quality teaching, investing in research and innovation, and inculcating the essence of the above Sanskrit Shloka in its students. Led by experienced members of faculty, the Online programs are carefully designed and crafted mixing a wide variety of activities and relevant resources, and hence engage you into a proactive and effective learning journey. University has an approval by UGC, DEB, AICTE, AIU, WES. </p>
     </div>
+    </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course5g">
       <img src={uttaranchal2} alt="" />
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course5f">
       <div className="course5fa">
         <div className="coursebox51"><h2>NAAC A+</h2></div>
@@ -76,6 +83,7 @@ function Course5() {
         <div className="coursebox51"><h2>SUPPORT TEAM / MENTOR</h2></div>
       </div>
     </div> 
+    </div>
 
     <div className="course5d">
       <h1>OUR TOP COURSES</h1>

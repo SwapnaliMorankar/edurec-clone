@@ -56,18 +56,26 @@ function Course2() {
       <img src={manipal1} alt="" />
     </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course2b">
       <h1>Manipal University, Jaipur</h1>
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course2c">
       <p>Manipal University Jaipur (MUJ) was launched in 2011 on an invitation from the Government of Rajasthan, as a self-financed State University. A NAAC A+ accredited university, Manipal University Jaipur has stood as a pioneer, paving the way for industry-focused education. MUJ has redefined academic excellence in the region, with the Manipal way of learning; one that inspires students of all disciplines to learn and innovate through hands on practical experience.The multi-disciplinary university offers career-oriented courses at all levels, i.e., UG, PG and doctoral and across diverse streams, including Engineering, Architecture, Planning, Fashion Design, Interior Design, Fine Arts, Hospitality, Humanities, Journalism and Mass Communication, Basic Sciences, Law, Commerce, Computer Applications, Management, etc.  Some PG programmes are also available in the research mode. University has an approval by UGC, DEB, AICTE, AIU, WES. </p>
     </div>
+    </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course2g">
       <img src={manipal2} alt="" />
     </div>
+    </div>
 
+
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course2f">
       <div className="course2fa">
         <div className="coursebox21"><h2>NAAC A+</h2></div>
@@ -77,14 +85,18 @@ function Course2() {
         <div className="coursebox21"><h2>SUPPORT TEAM / MENTOR</h2></div>
       </div>
     </div> 
+    </div>
 
     <div className="course2d">
       <h1>OUR TOP COURSES</h1>
     </div>
-    <div className="my_popup"><Popup_enquiry/></div>
-    <div className="course2e">
-        <div className="course2ea">
 
+    <div className="my_popup"><Popup_enquiry/></div>
+
+
+    <div className="course2e">
+
+        <div className="course2ea">
             <div className="coursebox22">
             <img src={mba1} alt="" />
             <h1>MBA</h1>
@@ -123,7 +135,7 @@ function Course2() {
              <div className="my_popup"> <h3 onClick={show_course_popup}>KNOW MORE</h3></div>
             </div>
         </div>
-      </div>  
+        </div>
 
       <Home_footer/>
     </>

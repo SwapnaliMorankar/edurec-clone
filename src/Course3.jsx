@@ -55,18 +55,25 @@ function Course3() {
       <img src={jain1} alt="" />
     </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course3b">
       <h1>Jain University</h1>
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course3c">
       <p>Ranked among the top universities in India and considered a cerebral destination for students across the world and Bangalore in particular, for its illustrious history of developing talent, JAIN (Deemed-to-be University) is a hub for learning in every sense of the word. The University which is based in Bangalore – the Silicon Valley of India, offers a conducive environment for learning, be it academically or extracurricular activities. Known for its emphasis on education, entrepreneurship, research and sports, JAIN (Deemed-to-be University) has some of the best minds in the educational and research fields, and centers that inspire entrepreneurship and groundbreaking work to simplify and manage life better. JAIN (Deemed-to-be University) is built on the belief that for a nation to grow, quality education is a must. What is also vital is that we put education to good use. There are 7 values that the Institution is founded on - Credibility, Commitment, Consistency, Creativity, Conviction, Innovation, Reliability. University has an approval by UGC, DEB, AICTE, AIU, WES. </p>
     </div>
+    </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course3g">
       <img src={jain2} alt="" />
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course3f">
       <div className="course3fa">
         <div className="coursebox31"><h2>NIRF 68</h2></div>
@@ -75,8 +82,9 @@ function Course3() {
       <div className="course3fb">
         <div className="coursebox31"><h2>PLACEMENT ASSISTANCE</h2></div>
         <div className="coursebox31"><h2>SUPPORT TEAM / MENTOR</h2></div>
-      </div>3
+      </div>
     </div> 
+    </div>
 
     <div className="course3d">
       <h1>OUR TOP COURSES</h1>

@@ -17,7 +17,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import instalogo from './Other_images/instagram.jpeg'
 
-
 import facebooklogo from './Other_images/facebook.png'
 import whatsapplogo from './Other_images/whatsapp.png'
 import Edureclogo from './Other_images/Edureclogo.png'
@@ -59,18 +58,25 @@ function Course6() {
       <img src={lovely1} alt="" />
     </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course6b">
       <h1>Lovely Professional University</h1>
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course6c">
       <p>Lovely Professional University (LPU) is a private university located in Chaheru, Phagwara, Punjab, India.The university was established in 2005 by Lovely International Trust, through the Lovely Professional University Act, 2005. Open and Distance Learning programmes recognized by the concerned regular bodies are equivalent to the corresponding regular mode programmes for higher education and employability purpose. It aims for Creation and establishment of versatile and competent Open & Distance Learning system to cater to the educational aspirations of the society. And To deliver affordable and accessible quality Education for augmenting the academic value and skills of higher education aspirants. The University offers various advantages on enrollment - PERSONAL CONTACT PROGRAMME, PLACEMENTS, ONLINE PORTAL (LPU E-CONNECT), AVAILABILITY OF ONLINE STUDY MATERIAL, WORKSHOPS AND SEMINARS, STUDENT INDUCTION, AFFORDABLE FEE STRUCTURE etc. University has an approval by UGC, DEB, AICTE, AIU, WES. </p>
     </div>
+    </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course6g">
       <img src={lovely2} alt="" />
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course6f">
       <div className="course6fa">
         <div className="coursebox61"><h2>NIRF 38</h2></div>
@@ -81,6 +87,7 @@ function Course6() {
         <div className="coursebox61"><h2>SUPPORT TEAM / MENTOR</h2></div>
       </div>
     </div> 
+    </div>
 
     <div className="course6d">
       <h1>OUR TOP COURSES</h1>

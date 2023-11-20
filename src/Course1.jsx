@@ -53,18 +53,25 @@ function Course1() {
       <img src={dypatil1} alt="" />
     </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course1b">
       <h1>Dr. D. Y. Patil Vidyapeeth, Pune</h1>
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course1c">
       <p>Dr. D. Y. Patil Vidyapeeth, Pune (Deemed-to-be University) was established by the University Grants Commission, Government of India under Section 3 of the UGC Act, 1956 vide its notification dated 11th January 2003. Presently,Dr. D. Y. Patil Vidyapeeth, Pune has 13 Constituent Units that has created a brand name “DPU” in the field of Medicine, Dentistry, Nursing, Physiotherapy, Optometry, Biotechnology, Management, Ayurved, Homeopathy, Design, Allied Health Sciences, Liberal Arts, Science & Technology and Online Learning Centre. It has state-of-the-art infrastructure and dedicated faculty members. All the programs offered in these Constituent Units of the Vidyapeeth are duly recognized by the respective Councils such as UGC,DEB,AICTE,AIU,WES. Dr. D. Y. Patil Vidyapeeth, Pune has been accredited (3rd Cycle) by NAAC with a CGPA of 3.64 on a four-point scale at ‘A++’ grade on 8th February 2022, valid up to 7th February 2029 . Dr. D. Y. Patil Vidyapeeth, Pune is an 9001: 2015, ISO 14001:2015 and Green Education Campus certified University.</p>
     </div>
+    </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course1g">
       <img src={dypatil3} alt="" />
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course1f">
       <div className="course1fa">
         <div className="coursebox11"><h2>NAAC A++</h2></div>
@@ -75,11 +82,14 @@ function Course1() {
         <div className="coursebox11"><h2>SUPPORT TEAM / MENTOR</h2></div>
       </div>
     </div>
+    </div>
 
     <div className="course1d">
       <h1>OUR TOP COURSES</h1>
     </div>
+
     <div className="my_popup"><Popup_enquiry/></div>
+
     <div className="course1e">
           <div className="coursebox12">
             <img src={mba1} alt="" />
@@ -94,6 +104,7 @@ function Course1() {
             <div className="my_popup"> <h3 onClick={show_course_popup}>KNOW MORE</h3></div>
           </div>
     </div>
+
 
     <Home_footer/>
 

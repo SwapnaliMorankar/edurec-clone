@@ -20,7 +20,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import instalogo from './Other_images/instagram.jpeg'
-
 import facebooklogo from './Other_images/facebook.png'
 import whatsapplogo from './Other_images/whatsapp.png'
 import Edureclogo from './Other_images/Edureclogo.png'
@@ -62,18 +61,25 @@ function Course7() {
       <img src={mangal1} alt="" />
     </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course7b">
       <h1>Mangalayatan University</h1>
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course7c">
       <p>Manglayatan University is a private university established in 2006, recognised by University Grants Commission (UGC). Its campus is located in the city of Aligarh in the Indian state of Uttar Pradesh. The main moto of this university is 'Learn today to lead tomorrow'. It has been accredited by the National Assessment and Accreditation Council (NAAC) with 'A+' Grade. The Mangalayatan University has emerged as a well-known brand in northern India and is expanding fast all over the country with plans to be an international destination.Mangalayatan University is a dynamic and innovative institution of higher education based in Aligarh, Uttar Pradesh, India. The university offers a wide range of undergraduate and postgraduate programs across various disciplines, including Engineering, Management, Humanities, Sciences, Law, and Education. At Mangalayatan University, the focus is on providing a world-class education that prepares students to become leaders in their fields. The faculty is drawn from the best of the best in the industry and academics. The university has state-of-art facilities, including modern classrooms, labs, and libraries, to support students in their learning journey. University has an approval by UGC, AICTE, AIU. </p>
     </div>
+    </div>
 
+    <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course7g">
       <img src={mangal2} alt="" />
     </div>
+    </div>
 
+    <div data-aos="fade-right" data-aos-duration="2000">
     <div className="course7f">
       <div className="course7fa">
         <div className="coursebox71"><h2>NAAC A+</h2></div>
@@ -83,6 +89,7 @@ function Course7() {
         <div className="coursebox71"><h2>SUPPORT TEAM / MENTOR</h2></div>
       </div>
     </div> 
+    </div>
 
     <div className="course7d">
       <h1>OUR TOP COURSES</h1>
