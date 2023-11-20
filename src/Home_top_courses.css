@@ -1,4 +1,33 @@
+.home_top_courses_viewmore{
+    margin-left: auto;
+    width: 200px;
+    margin-top: -20px;
+  }
+  .home_courses_card{
+    width: 250px;
+    height: 200px;
+    /* background-color: aquamarine; */
+    
 
+  }
+  .card{
+
+    border: none;
+  }
+  .Home_top_courses_flex{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+  }
+  .boyimg{
+height: 550px;
+width: 400px;
+background-image: url(boyanimation_imgfinal.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-color: aqua;
+margin-top: 200px;
+  }
 .home_top_courses_container{
     
     position: relative;
@@ -133,11 +162,6 @@
     font-size: 12px;
 }
 
-
-
-
-
-
 .Home_our_top_courses{
     font-size: 70px;
     font-weight: 900;
@@ -212,33 +236,3 @@
     }
   }
 
-  .home_top_courses_viewmore{
-    margin-left: auto;
-    width: 200px;
-    margin-top: -20px;
-  }
-  .home_courses_card{
-    width: 250px;
-    height: 200px;
-    /* background-color: aquamarine; */
-    
-
-  }
-  .card{
-
-    border: none;
-  }
-  .Home_top_courses_flex{
-    display: flex;
-    flex-wrap: wrap;
-    z-index: -1;
-  }
-  .boyimg{
-height: 550px;
-width: 400px;
-background-image: url(boyanimation_imgfinal.jpg);
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-color: aqua;
-margin-top: 200px;
-  }
