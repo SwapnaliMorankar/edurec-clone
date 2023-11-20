@@ -149,6 +149,17 @@ margin-top: 200px;
     .home_top_courses_container{
         width: 100%;
     }
+    .boyimg{
+        height: 400px;
+        width: 100%;
+        background-image: url(boyanimation_imgfinal.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-color: aqua;
+        margin-top: 200px;
+        display: none;
+          }
+    
 }
 .fee_structure{
     font-size: 20px;

@@ -37,8 +37,8 @@ function Home_footer() {
         <div className="home_footer_box1_4">
           <ul className='home_footer_list_title'>COURSES
           <li><Link to="/dypatil" className='home_footer_list_elements'>MBA</Link></li>
-          <li><Link to="/dypatil" className='home_footer_list_elements'>BBA</Link></li>
-          <li><Link to="/dypatil" className='home_footer_list_elements'>BCA</Link></li>
+          <li><Link to="/manipal" className='home_footer_list_elements'>BBA</Link></li>
+          <li><Link to="/amity" className='home_footer_list_elements'>BCA</Link></li>
           </ul>
           </div>
         <div className="home_footer_box1_5">
