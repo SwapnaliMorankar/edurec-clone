@@ -60,7 +60,14 @@ function Course4() {
     <div className="course4a">
       <img src={amity1} alt="" />
     </div>
-
+    {/* social media****************************************************************************************************************************** */}
+    <div className="university_footer_socialmedia">
+        <div className="university_icons">
+        <a href="https://instagram.com/edurec.in?igshid=cGdpYmlta2V4YXg=" target='_blank'> <img src={instalogo} alt="" /></a>
+        <a href="https://wa.link/q57v2j  "target='_blank'> <img src={whatsapplogo} alt="" /></a>
+        <a href="https://www.facebook.com/profile.php?id=61552360414876" target='_blank'> <img src={facebooklogo} alt="" /></a>
+        </div>
+      </div>
     <div className="course4b">
       <h1>Amity University</h1>
     </div>

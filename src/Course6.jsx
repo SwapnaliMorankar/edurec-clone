@@ -57,7 +57,14 @@ function Course6() {
     <div className="course6a">
       <img src={lovely1} alt="" />
     </div>
-
+ {/* social media****************************************************************************************************************************** */}
+ <div className="university_footer_socialmedia">
+        <div className="university_icons">
+        <a href="https://instagram.com/edurec.in?igshid=cGdpYmlta2V4YXg=" target='_blank'> <img src={instalogo} alt="" /></a>
+        <a href="https://wa.link/q57v2j  "target='_blank'> <img src={whatsapplogo} alt="" /></a>
+        <a href="https://www.facebook.com/profile.php?id=61552360414876" target='_blank'> <img src={facebooklogo} alt="" /></a>
+        </div>
+      </div>
     <div className="course6b">
       <h1>Lovely Professional University</h1>
     </div>

@@ -86,7 +86,7 @@ function University() {
         <a href="https://instagram.com/edurec.in?igshid=cGdpYmlta2V4YXg="> <img src={instalogo} alt="" /></a>
         <a href="https://wa.link/q57v2j"> <img src={whatsapplogo} alt="" /></a>
         
-        <a href=""> <img src={facebooklogo} alt="" /></a>
+        <a href="https://www.facebook.com/profile.php?id=61552360414876"> <img src={facebooklogo} alt="" /></a>
         </div>
       </div>
 
