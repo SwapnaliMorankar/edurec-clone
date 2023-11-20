@@ -55,6 +55,7 @@ function Support() {
             <img src={supportimage} alt="No image" />
         </div>
     </div>
+
         {/* social media sticky=----------------------------------- */}
         <div className="university_footer_socialmedia">
         <div className="university_icons">
@@ -63,6 +64,8 @@ function Support() {
         <a href="https://www.facebook.com/profile.php?id=61552360414876" target='_blank'> <img src={facebooklogo} alt="" /></a>
         </div>
       </div>
+
+      
     <div className="support2">
         <div className="support2a">
           <div className="support2b">

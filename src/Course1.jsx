@@ -54,6 +54,8 @@ function Course1() {
     <div className="course1a">
       <img src={dypatil1} alt="" />
     </div>
+
+    {/* social media******************************************************************************* */}
     <div className="university_footer_socialmedia">
         <div className="university_icons">
         <a href="https://instagram.com/edurec.in?igshid=cGdpYmlta2V4YXg=" target='_blank'> <img src={instalogo} alt="" /></a>

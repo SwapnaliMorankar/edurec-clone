@@ -91,7 +91,7 @@ function University() {
       </div>
 
 
-            <h2 className='Home_our_top_courses' id='courses'>UNIVERSITIES</h2>
+            <h2 className='university_page_name' >UNIVERSITIES</h2>
 
             <div className="university_flex_container">
                 <div class="university_card">

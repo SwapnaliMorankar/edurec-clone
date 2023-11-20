@@ -9,6 +9,20 @@
     border-radius: 17px;
     
 }
+.university_page_name{
+  font-size: 70px;
+    font-weight: 900;
+    background-image: url(Whoarewe.png);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    animation: textclip 2s linear infinite;
+    text-shadow: 1px 4px 2px #5de0e6;
+    margin-top: -50px;
+}
 #university_card_img{
     width: 100%;
     border-top-right-radius: 5px;
