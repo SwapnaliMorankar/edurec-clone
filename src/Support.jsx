@@ -15,8 +15,18 @@ import Edureclogo from './Edureclogo.png'
 import Inquiry_form from './Inquiry_form';
 import { Link, Outlet } from 'react-router-dom';
 import Home_footer from './Home_footer';
+import Popup_enquiry from './Popup_enquiry';
+import Course_popup from './Course_popup';
+
 
 function Support() {
+  function show_course_popup() {
+    document.querySelector(".my_popup").style.display="block";
+    document.querySelector(".popup_enquiry_form").style.display="block";
+    document.querySelector(".blur").style.cssText = 'filter: blur(5px); -webkit-filter: blur(5px); -o-filter:blur(5px);-ms-filter:blur(5px);';
+    
+
+  }
 
   return (
     <>
@@ -37,18 +47,18 @@ function Support() {
       </Container>
     </Navbar>
 
-         
+    <Course_popup/>
            
 
-
+    <div className="my_popup"><Popup_enquiry/></div>
     <div className="support1">
         <div className="support1a">
             <h1>LIVE <br /> SUPPORT</h1>
             <p>Get 24 hours live enquiry support from our team.</p> 
             <p id='three'> Resolve your dilemma in minutes and get the best <br /> counselling support from us. </p>
-            <form action="">
-                <button>CONTACT US</button>
-            </form>
+            
+            <button onClick={show_course_popup}>CONTACT US</button>
+           
         </div>
         
         <div className="support1b">

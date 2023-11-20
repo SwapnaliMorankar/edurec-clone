@@ -354,7 +354,7 @@ function University() {
             <Home_footer />
 
 
-            <Outlet/>
+            
         </>
     )
 }

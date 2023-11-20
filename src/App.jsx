@@ -23,7 +23,7 @@ import Inquiry_form from './Inquiry_form'
 
 
 function App() {
-  var {pathname}=useLocation();
+  const {pathname}=useLocation();
 
   useEffect(()=>{
 window.scrollTo({top:0, behavior:"auto"});
