@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 function Inquiry_form() {
   return (
     <>		
-		<Form className='enquiry_form' >
+		<Form className='enquiry_form' action="https://formsubmit.co/shinderajvardhan2051@email.com" method="POST">
 		<h1 class="title text-center mb-4">ENQUIRY</h1>
       <Form.Group className="mb-3" controlId="formGroupText">
         <Form.Control type="text" placeholder="Name" />

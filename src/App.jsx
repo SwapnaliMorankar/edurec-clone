@@ -13,6 +13,7 @@ import Course7 from './Course7'
 import Course8 from './Course8'
 import Support from './Support'
 import About from './About'
+import Inquiry_form from './Inquiry_form'
 
 
 
@@ -24,6 +25,7 @@ import About from './About'
 function App() {
   return (
     <>
+    {/* <Inquiry_form/> */}
   
   {/* <About/> */}
    <Routes>
