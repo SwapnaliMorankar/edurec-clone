@@ -11,6 +11,7 @@
   position: sticky;
   top: 0;
 }
+
 body {
   position: static;
   z-index: 3;
@@ -28,7 +29,7 @@ body {
 }
 
 .home-navbar-name {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #703c3c;
   font-size: 29px;
   color: #000000;
   

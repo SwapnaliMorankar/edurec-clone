@@ -42,23 +42,7 @@ function About() {
 
   return (
     <>
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary ">
-      <Container>
-        <Navbar.Brand href="#home"><img src={Edureclogo} id='edurec-logo' alt="" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-         
-          <Nav>
-          <Nav.Link ><Link to="/" className='home-navbar-name' >HOME</Link> </Nav.Link>
-          <Nav.Link ><Link to="/about" className='home-navbar-name' >ABOUT</Link> </Nav.Link>
-            <Nav.Link ><Link to="/university" className='home-navbar-name'>UNIVERSITY</Link> </Nav.Link>
-            <Nav.Link ><Link to="/support" className='home-navbar-name'>SUPPORT</Link> </Nav.Link>
-            
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-
+    
   
             
       {/* FIRST PHOTO SECTION */}

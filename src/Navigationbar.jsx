@@ -12,6 +12,7 @@ import Edureclogo from './Edureclogo.png'
 import instalogo from './instagram.jpeg'
 import facebooklogo from './facebook.png'
 import whatsapplogo from './whatsapp.png'
+import Just_nav from './Just_nav';
 
 function Navigationbar() {
   return (
@@ -19,22 +20,7 @@ function Navigationbar() {
     {/* START OF FIRST BLOCK NAV,LOGIN.... */}
     <div class="responsive-div">
     <div className="overlap">
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary ">
-      <Container>
-        <Navbar.Brand href="#home"><img src={Edureclogo} id='edurec-logo' alt="" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-         
-          <Nav>
-          <Nav.Link ><Link to="/" className='home-navbar-name' >HOME</Link> </Nav.Link>
-          <Nav.Link ><Link to="/about" className='home-navbar-name' >ABOUT</Link> </Nav.Link>
-            <Nav.Link ><Link to="/university" className='home-navbar-name'>UNIVERSITY</Link> </Nav.Link>
-            <Nav.Link ><Link to="/support" className='home-navbar-name'>SUPPORT</Link> </Nav.Link>
-            
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <Just_nav/>
     </div>
     <div className="Home_form_and_title">
       <div className="home_title_box">Your Path to Success Starts Here: Explore Career Opportunities with Us</div>

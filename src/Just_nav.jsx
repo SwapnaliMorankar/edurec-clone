@@ -6,6 +6,7 @@ import Inquiry_form from './Inquiry_form';
 import { Link, Outlet } from 'react-router-dom';
 import Edureclogo from './Edureclogo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Just_nav.css'
 
 function Just_nav() {
   return (
