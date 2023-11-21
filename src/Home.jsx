@@ -19,8 +19,8 @@ function Home() {
   return (
     <>
   
-    
     <Navigationbar/>
+    
  
     <Home_about/>
     <Home_diagram/>

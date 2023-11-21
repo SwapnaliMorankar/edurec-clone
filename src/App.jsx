@@ -14,6 +14,7 @@ import Course8 from './Course8'
 import Support from './Support'
 import About from './About'
 import Inquiry_form from './Inquiry_form'
+import Just_nav from './Just_nav'
 
 
 
@@ -30,9 +31,7 @@ window.scrollTo({top:0, behavior:"auto"});
   },[pathname])
   return (
     <>
-    {/* <Inquiry_form/> */}
-  
-  {/* <About/> */}
+  <Just_nav/>
    <Routes>
     <Route path='/' element={ <Home/>}/>
     <Route path='university' element={ <University/>}/>

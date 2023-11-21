@@ -18,6 +18,7 @@ function Navigationbar() {
     <>
     {/* START OF FIRST BLOCK NAV,LOGIN.... */}
     <div class="responsive-div">
+    <div className="overlap">
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary ">
       <Container>
         <Navbar.Brand href="#home"><img src={Edureclogo} id='edurec-logo' alt="" /></Navbar.Brand>
@@ -34,6 +35,7 @@ function Navigationbar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
     <div className="Home_form_and_title">
       <div className="home_title_box">Your Path to Success Starts Here: Explore Career Opportunities with Us</div>
       <div className="home_inquiry_box"><Inquiry_form/></div>
