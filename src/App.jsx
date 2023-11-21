@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './Home'
 import University from './University'
 import { Route, Routes } from 'react-router-dom'
+import Just_nav from './Just_nav'
 import Popup_enquiry from './Popup_enquiry'
 import Course1 from './Course1'
 import Course2 from './Course2'
@@ -13,11 +14,20 @@ import Course7 from './Course7'
 import Course8 from './Course8'
 import Support from './Support'
 import About from './About'
+import { useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function App() {
+
+  const {pathname}=useLocation();
+
+    useEffect(()=>{
+    window.scrollTo({top:0, behavior:"auto"});
+      },[pathname])
+
   return (
     <>
-  
+    <Just_nav/>
   {/* <About/> */}
    <Routes>
     <Route path='/' element={ <Home/>}/>

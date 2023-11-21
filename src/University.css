@@ -6,8 +6,7 @@
     flex-wrap: wrap;
     margin: auto;
     margin-top: 100px;
-    border-radius: 17px;
-    
+    border-radius: 17px; 
 }
 #university_card_img{
     width: 100%;
@@ -97,6 +96,24 @@ line-height: 1;
     transition: 0.5s;
 }
 
+#margin_id{
+  margin-top: 0px;
+}
+
+.university_pagename{
+  font-size: 70px;
+  font-weight: 900;
+  background-image: url(Other_images/Whoarewe.png);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  animation: textclip 2s linear infinite;
+  text-shadow: 1px 4px 2px #5de0e6;
+  margin-top: -60px;
+}
 
 
 /* csrousel started--------------------------------------------------------------------------- */

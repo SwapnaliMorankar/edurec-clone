@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
+import swal1 from 'sweetalert';
 import './About.css'
+import Just_nav from './Just_nav'
 import frame10 from './Other_images/Frame 10.png';
 import frame11 from './Other_images/Frame 11.png';
 import frame12 from './Other_images/Frame 12.png';
@@ -20,27 +22,33 @@ import whatsapplogo from './Other_images/whatsapp.png'
 
 function About() {
 
+    function sendmail(event){
+     
+      let Name= document.getElementById("name").value;
+      let Email1= document.getElementById("email").value;
+      let Number= document.getElementById("number").value;
+      let body = "Name: " + Name + "<br/> Email: " + Email1 + "<br/> Contact Number: " + Number;
+        event.preventDefault();
+        Email.send({
+          SecureToken : "ff0a9687-81b6-4e13-99f0-135cd98d54b3",
+          To : 'snmorankar210603@gmail.com',
+          From : "snmorankar210603@gmail.com",
+          Subject : "About us page Enquiry form",
+          Body : body
+      }).then(
+        message =>{
+          if(message='OK'){
+            swal1("Congratulations", "Your Enquiry has been sent successfully. We will contact you soon!", "success");
+          }
+        }
+        
+      );
+    }
 
   return (
     <>
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary ">
-      <Container>
-        <Navbar.Brand href="#home"><img src={Edureclogo} id='edurec-logo' alt="" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-         
-          <Nav>
-          <Nav.Link ><Link to="/" className='home-navbar-name' >HOME</Link> </Nav.Link>
-          <Nav.Link ><Link to="/about" className='home-navbar-name' >ABOUT</Link> </Nav.Link>
-            <Nav.Link ><Link to="/university" className='home-navbar-name'>UNIVERSITY</Link> </Nav.Link>
-            <Nav.Link ><Link to="/support" className='home-navbar-name'>SUPPORT</Link> </Nav.Link>
-            
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <Just_nav/>
 
-  
             
       {/* FIRST PHOTO SECTION */}
         <div className="About1">
@@ -67,9 +75,9 @@ function About() {
         <a href="https://instagram.com/edurec.in?igshid=cGdpYmlta2V4YXg="> <img src={instalogo} alt="" /></a>
         <a href="https://wa.link/q57v2j"> <img src={whatsapplogo} alt="" /></a>
         
-        <a href=""> <img src={facebooklogo} alt="" /></a>
+        <a href="https://www.facebook.com/profile.php?id=61552360414876"> <img src={facebooklogo} alt="" /></a>
         </div>
-      </div>
+      </div>
 
       {/* THIRD DIAMOND SECTION   */}
         <div className="about3">
@@ -116,17 +124,15 @@ function About() {
 
       {/* LAST REGISTER SECTION */}
         <div className="about7">
-        {/* <div data-aos="zoom-in-right" data-aos-duration="1500"> */}
           <div className="about7b">
-          <form action="" id='form1'>
+          <form action="" id='form1' onSubmit={sendmail} method='POST'>
           <h2>JOIN US NOW</h2>
-              <input type="text" placeholder='Enter your Name' required/>
-              <input type="email" placeholder='Enter your Email' required/>
-              <input type="" placeholder='Enter your Contact Number' required/> <br />
+              <input type="text" name="name" id="name" placeholder='Enter your Name' required/>
+              <input type="email" name="email" id="email" placeholder='Enter your Email' required/>
+              <input type="text" name="number" id="number" placeholder='Enter your Contact Number' pattern="[0-9]{10}" required/> <br />
               <button>SUBMIT</button>
             </form>
             </div>
-            {/* </div> */}
           <div className="about7a">
           </div>
         </div>

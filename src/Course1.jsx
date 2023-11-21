@@ -18,6 +18,7 @@ import { Link, Outlet } from 'react-router-dom';
 import Home_footer from './Home_footer';
 import Popup_enquiry from './Popup_enquiry';
 import Course_popup from './Course_popup';
+import Just_nav from './Just_nav';
 
 
 function Course1() {
@@ -31,27 +32,22 @@ function Course1() {
   return (
     <>
     
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary ">
-      <Container>
-        <Navbar.Brand href="#home"><img src={Edureclogo} id='edurec-logo' alt="" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-         
-          <Nav>
-          <Nav.Link ><Link to="/" className='home-navbar-name' >HOME</Link> </Nav.Link>
-          <Nav.Link ><Link to="/about" className='home-navbar-name' >ABOUT</Link> </Nav.Link>
-            <Nav.Link ><Link to="/university" className='home-navbar-name'>UNIVERSITY</Link> </Nav.Link>
-            <Nav.Link ><Link to="/support" className='home-navbar-name'>SUPPORT</Link> </Nav.Link>
-            
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <Just_nav/>
 
     <Course_popup/>
     <div className="course1a">
       <img src={dypatil1} alt="" />
     </div>
+
+    {/* social media sticky=----------------------------------- */}
+    <div className="home_footer_socialmedia">
+        <div className="icons">
+        <a href="https://instagram.com/edurec.in?igshid=cGdpYmlta2V4YXg="> <img src={instalogo} alt="" /></a>
+        <a href="https://wa.link/q57v2j"> <img src={whatsapplogo} alt="" /></a>
+        
+        <a href="https://www.facebook.com/profile.php?id=61552360414876"> <img src={facebooklogo} alt="" /></a>
+        </div>
+      </div>
 
     <div data-aos="zoom-out" data-aos-duration="2000">
     <div className="course1b">

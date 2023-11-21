@@ -10,7 +10,7 @@ import './Navigationbar.css';
 import Home_footer from './Home_footer';
 import Carousel from 'react-bootstrap/Carousel';
 import './Home_top_courses.css';
-import carousel2 from './University_related_images/carouselimg2.jpg'
+import carousel2 from './University_related_images/Courouselimage2.jpg'
 import carousel3 from './University_related_images/carouselimg3.jpg'
 import manipalcard from './University_related_images/manipalcard_university.webp'
 import jaincard from './University_related_images/jaincard_university.jpg'
@@ -23,42 +23,26 @@ import instalogo from './Other_images/instagram.jpeg'
 import facebooklogo from './Other_images/facebook.png'
 import whatsapplogo from './Other_images/whatsapp.png'
 import { Link, Outlet } from 'react-router-dom';
+import Just_nav from './Just_nav';
 
 
 function University() {
     return (
         <>
 
-
-
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary ">
-      <Container>
-        <Navbar.Brand href="#home"><img src={Edureclogo} id='edurec-logo' alt="" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-         
-          <Nav>
-          <Nav.Link ><Link to="/" className='home-navbar-name' >HOME</Link> </Nav.Link>
-          <Nav.Link ><Link to="/about" className='home-navbar-name' >ABOUT</Link> </Nav.Link>
-            <Nav.Link ><Link to="/university" className='home-navbar-name'>UNIVERSITY</Link> </Nav.Link>
-            <Nav.Link ><Link to="/support" className='home-navbar-name'>SUPPORT</Link> </Nav.Link>
-            
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+            <Just_nav/>
             {/* NAVBAR---------------------------------------END----------------------------------------------- */}
 
 
-            <Carousel data-bs-theme="dark">
-                <Carousel.Item>
+            <Carousel data-bs-theme="dark" interval={2000}>
+                <Carousel.Item interval={2000}>
                     <img
                         className="d-block w-100"
                         src={carousel3}
                         alt="First slide"
                     />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={2000}>
                     <img
                         className="d-block w-100"
                         src={carousel2}
@@ -66,7 +50,7 @@ function University() {
                     />
 
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={2000}>
                     <img
                         className="d-block w-100"
                         src={dypatil}
@@ -81,17 +65,17 @@ function University() {
 
             
             {/* social media sticky=----------------------------------- */}
-  <div className="home_footer_socialmedia">
+        <div className="home_footer_socialmedia">
         <div className="icons">
         <a href="https://instagram.com/edurec.in?igshid=cGdpYmlta2V4YXg="> <img src={instalogo} alt="" /></a>
         <a href="https://wa.link/q57v2j"> <img src={whatsapplogo} alt="" /></a>
         
-        <a href=""> <img src={facebooklogo} alt="" /></a>
+        <a href="https://www.facebook.com/profile.php?id=61552360414876"> <img src={facebooklogo} alt="" /></a>
         </div>
-      </div>
+      </div>
 
       <div data-aos="fade-right" data-aos-duration="2000">
-            <h2 className='Home_our_top_courses' id='courses'>UNIVERSITIES</h2>
+            <h2 className='university_pagename'>UNIVERSITIES</h2>
         </div>  
 
             <div className="university_flex_container">

@@ -131,11 +131,6 @@
     font-size: 12px;
 }
 
-
-
-
-
-
 .Home_our_top_courses{
     font-size: 70px;
     font-weight: 900;
@@ -150,65 +145,7 @@
     text-shadow: 1px 4px 2px #5de0e6;
     margin-top: 100px;
 }
-@media (max-width: 768px) {
-    .Home_our_top_courses{
-      font-size: 50px;
-      font-weight: 900;
-      background-image: url(Other_images/Whoarewe.png);
-      background-size: cover;
-      background-position: center;
-      background-clip: text;
-      -webkit-background-clip: text;
-      color: transparent;
-      margin-top: 50px;
-      text-align: center;
-      animation: textclip 2s linear infinite;
-      text-shadow: 1px 4px 2px #5de0e6;
-  }
-  .boyimg{
-    height: 200px;
-    width: 100%;
-    background-image: url(Other_images/boyanimation_imgfinal.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: aqua;
-    margin-top: 200px;
-    display: none;
-      }
-  }
-  
-  /* Media query for even smaller screens */
-  @media (max-width: 480px) {
-    .Home_our_top_courses{
-      font-size: 40px;
-      font-weight: 900;
-      background-image: url(Other_images/Whoarewe.png);
-      background-size: cover;
-      background-position: center;
-      background-clip: text;
-      -webkit-background-clip: text;
-      color: transparent;
-      margin-top: 50px;
-      text-align: center;
-      animation: textclip 2s linear infinite;
-      text-shadow: 1px 4px 2px #5de0e6;
-  }
-  .boyimg{
-    height: 400px;
-    width: 100%;
-    background-image: url(Other_images/boyanimation_imgfinal.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: aqua;
-    margin-top: 200px;
-    display: none;
-      }
-}
-@keyframes textclip {
-    to {
-      background-position: 200% center;
-    }
-  }
+
 
   .home_top_courses_viewmore{
     margin-left: auto;
@@ -219,8 +156,6 @@
     width: 250px;
     height: 200px;
     /* background-color: aquamarine; */
-    
-
   }
   .card{
 
@@ -239,4 +174,51 @@ background-repeat: no-repeat;
 background-size: 100% 100%;
 background-color: aqua;
 margin-top: 200px;
+  }
+  @media (max-width: 768px) {
+    .Home_our_top_courses{
+      font-size: 50px;
+      font-weight: 900;
+      background-image: url(Other_images/Whoarewe.png);
+      background-size: cover;
+      background-position: center;
+      background-clip: text;
+      -webkit-background-clip: text;
+      margin: auto;
+      color: transparent;
+      margin-top: 50px;
+      text-align: center;
+      animation: textclip 2s linear infinite;
+      text-shadow: 1px 4px 2px #5de0e6;
+  }
+  .boyimg{
+    display: none;
+      }
+  }
+  
+  /* Media query for even smaller screens */
+  @media (max-width: 480px) {
+    .Home_our_top_courses{
+      font-size: 40px;
+      font-weight: 900;
+      background-image: url(Other_images/Whoarewe.png);
+      background-size: cover;
+      background-position: center;
+      background-clip: text;
+      -webkit-background-clip: text;
+      margin: auto;
+      color: transparent;
+      margin-top: 50px;
+      text-align: center;
+      animation: textclip 2s linear infinite;
+      text-shadow: 1px 4px 2px #5de0e6;
+  }
+  .boyimg{
+    display: none;
+      }
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
   }

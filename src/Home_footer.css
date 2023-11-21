@@ -60,7 +60,6 @@
   list-style: none;
   line-height: 0.8;
   font-weight: 600;
-  overflow: scroll;
   
 
 }
@@ -70,7 +69,6 @@
   margin-left: 6px;
   text-decoration: none;
   color: aliceblue;
-  
 }
 .home_footer_list_title a{
   font-size: 15px;

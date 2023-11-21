@@ -37,16 +37,16 @@ function Home_footer() {
         <div className="home_footer_box1_4">
           <ul className='home_footer_list_title'>COURSES
           <li><Link to="/dypatil" className='home_footer_list_elements'>MBA</Link></li>
-          <li><Link to="/dypatil" className='home_footer_list_elements'>BBA</Link></li>
-          <li><Link to="/dypatil" className='home_footer_list_elements'>BCA</Link></li>
+          <li><Link to="/manipal" className='home_footer_list_elements'>BBA</Link></li>
+          <li><Link to="/amity" className='home_footer_list_elements'>BCA</Link></li>
           </ul>
           </div>
         <div className="home_footer_box1_5">
           <ul className='home_footer_list_title'>VISIT
           <li><Link to="/about" className='home_footer_list_elements'>About Us</Link></li>
-          <li><Link to="#partners" className='home_footer_list_elements'>Partners</Link></li>
-          <li><Link to="#courses" className='home_footer_list_elements'>Courses</Link></li>
-          <li><Link to="#architecture" className='home_footer_list_elements'>Flow</Link></li>
+          <li><Link to="/university" className='home_footer_list_elements'>Partners</Link></li>
+          <li><Link to="/" className='home_footer_list_elements'>Courses</Link></li>
+          <li><Link to="/" className='home_footer_list_elements'>Flow</Link></li>
           <li><Link to="/support" className='home_footer_list_elements'>Contact US</Link></li>
           </ul>
           </div>

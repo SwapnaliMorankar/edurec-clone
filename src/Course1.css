@@ -16,7 +16,7 @@
     height: auto;
     /* background-color: aqua; */
     margin: auto;
-    margin-top: 40px;
+    margin-top: -150px;
     padding-top: 20px;
 }
 .course1b h1{
@@ -29,7 +29,7 @@
     width: 100%;
     height: auto;
     /* background-color: brown; */
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .course1c p{
     width: 70%;
