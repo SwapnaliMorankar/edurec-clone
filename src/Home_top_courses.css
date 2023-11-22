@@ -71,8 +71,8 @@
 .home_top_courses_container .card .face.face1 .content img{
     max-width: 100px;
 }
- 
 .home_top_courses_container .card .face.face1 .content h3{
+    margin: auto;
     margin: 10px 0 0;
     padding: 0;
     color: #fff;
@@ -80,6 +80,7 @@
     font-size: 1.5em;
 }
 .home_top_courses_container .card .face.face2 .content a{
+    margin: auto;
     margin: 15px 0 0;
     display:  inline-block;
     text-decoration: none;
@@ -112,8 +113,7 @@
      .face {
         width: 100%;
         height: 200px;
-        transition: 0.5s;
-        
+        transition: 0.5s;        
     }
     .home_top_courses_container{
         width: 100%;
@@ -158,7 +158,7 @@
     /* background-color: aquamarine; */
   }
   .card{
-
+    /* margin-left: 30px; */
     border: none;
   }
   .Home_top_courses_flex{
@@ -216,6 +216,12 @@ margin-top: 200px;
   .boyimg{
     display: none;
       }
+    .face1, .face2{
+        margin-left: 25px;
+    }
+    .home_top_courses_viewmore{
+        margin-left: 30px;
+    }
 }
 @keyframes textclip {
     to {
